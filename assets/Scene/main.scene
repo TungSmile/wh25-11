@@ -21,11 +21,11 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 125
+      "__id__": 126
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 126
+      "__id__": 127
     },
     "_id": "d53f12fc-1a64-48cd-92ac-6bef0a51ca1f"
   },
@@ -81,13 +81,16 @@
       },
       {
         "__id__": 124
+      },
+      {
+        "__id__": 125
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 207,
-      "y": 368,
+      "x": 540,
+      "y": 960,
       "z": 0
     },
     "_lrot": {
@@ -129,7 +132,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": -1.1368683772161605e-13,
       "y": 0,
       "z": 891.2655971479502
     },
@@ -168,7 +171,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 368,
+    "_orthoHeight": 959.9999999999999,
     "_near": 0,
     "_far": 2000,
     "_color": {
@@ -232,8 +235,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.23439490445859873,
-      "y": 0.23439490445859873,
+      "x": 0.6114649681528662,
+      "y": 0.6114649681528662,
       "z": 1
     },
     "_layer": 33554432,
@@ -355,7 +358,6 @@
     "rotateCanvasLandscape": false,
     "changeEditorDevice": false,
     "oneTimeExecution": false,
-    "lastOrientation": true,
     "currentNodeInEditorFlag": false,
     "currentNodeInEditor": null,
     "_id": "5dy2NdKJVETKANoinOD4cj"
@@ -449,7 +451,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 329.6666666666667,
+      "y": 860,
       "z": 0
     },
     "_lrot": {
@@ -461,8 +463,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.38333333333333336,
-      "y": 0.38333333333333336,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_layer": 33554432,
@@ -651,7 +653,6 @@
     "rotateCanvasLandscape": false,
     "changeEditorDevice": false,
     "oneTimeExecution": false,
-    "lastOrientation": true,
     "currentNodeInEditorFlag": false,
     "currentNodeInEditor": null,
     "_id": "ee+vckWxVG+pH6ZD/DN/G/"
@@ -702,8 +703,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.7527272727272727,
-      "y": 0.7527272727272727,
+      "x": 1.9636363636363636,
+      "y": 1.9636363636363636,
       "z": 1
     },
     "_layer": 33554432,
@@ -2846,7 +2847,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "ctl",
+    "_name": "gamePlay",
     "_objFlags": 0,
     "_parent": {
       "__id__": 17
@@ -3578,8 +3579,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 500
+      "width": 550,
+      "height": 550
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3660,7 +3661,6 @@
     "rotateCanvasLandscape": false,
     "changeEditorDevice": false,
     "oneTimeExecution": false,
-    "lastOrientation": true,
     "currentNodeInEditorFlag": false,
     "currentNodeInEditor": null,
     "_id": "52ISxxjYBHtL7Zejt9eyl/"
@@ -3877,8 +3877,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -204.93,
-      "y": 365.93,
+      "x": -534.6,
+      "y": 954.6,
       "z": 0
     },
     "_lrot": {
@@ -3890,8 +3890,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.0080859375,
-      "y": 0.0080859375,
+      "x": 0.02109375,
+      "y": 0.02109375,
       "z": 1
     },
     "_layer": 33554432,
@@ -4013,7 +4013,6 @@
     "rotateCanvasLandscape": false,
     "changeEditorDevice": false,
     "oneTimeExecution": false,
-    "lastOrientation": true,
     "currentNodeInEditorFlag": false,
     "currentNodeInEditor": null,
     "_id": "f5nxs/qq9GR4+7kOnbf9PM"
@@ -4045,7 +4044,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -338.82072691552065,
+      "y": -883.8801571709234,
       "z": 0
     },
     "_lrot": {
@@ -4057,8 +4056,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.20333988212180745,
-      "y": 0.20333988212180745,
+      "x": 0.5304518664047151,
+      "y": 0.5304518664047151,
       "z": 1
     },
     "_layer": 33554432,
@@ -4180,7 +4179,6 @@
     "rotateCanvasLandscape": false,
     "changeEditorDevice": false,
     "oneTimeExecution": false,
-    "lastOrientation": true,
     "currentNodeInEditorFlag": false,
     "currentNodeInEditor": null,
     "_id": "ad0+Qz7gJBK6V+yKxV45lF"
@@ -4367,8 +4365,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 414,
-      "height": 736
+      "width": 1080,
+      "height": 1920
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4439,7 +4437,7 @@
     "node": {
       "__id__": 2
     },
-    "_enabled": true,
+    "_enabled": false,
     "__prefab": null,
     "hand": {
       "__id__": 117
@@ -4472,14 +4470,33 @@
       "__uuid__": "6ea12a3b-7b42-44bf-b16d-79151d08b0fd",
       "__expectedType__": "cc.TiledMapAsset"
     },
-    "pen": {
-      "__id__": 95
-    },
+    "pen": null,
     "tick": {
       "__uuid__": "9ac98f84-c37d-4c0e-87c1-404dff0d6cd8",
       "__expectedType__": "cc.Prefab"
     },
     "_id": "dcJGYsHL9OC5WiUx6xbTvJ"
+  },
+  {
+    "__type__": "32924gY1vpNT69qPp6K6/HM",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "titledMap": {
+      "__id__": 93
+    },
+    "tileAsset": {
+      "__uuid__": "6ea12a3b-7b42-44bf-b16d-79151d08b0fd",
+      "__expectedType__": "cc.TiledMapAsset"
+    },
+    "table": null,
+    "pen": null,
+    "sound": [],
+    "_id": "55Dwpq1m5MZL9p2wSpkcJI"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4488,19 +4505,19 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 127
-    },
-    "shadows": {
       "__id__": 128
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 129
     },
-    "fog": {
+    "_skybox": {
       "__id__": 130
     },
-    "octree": {
+    "fog": {
       "__id__": 131
+    },
+    "octree": {
+      "__id__": 132
     }
   },
   {

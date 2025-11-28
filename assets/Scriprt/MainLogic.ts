@@ -205,10 +205,6 @@ export class MainLogic extends Component {
             let temp = a1.slice(i * t.colsW, (i + 1) * t.colsW);
             t.data.push(temp);
         }
-
-
-
-
     }
 
 
@@ -252,8 +248,8 @@ export class MainLogic extends Component {
                             let tiled = t.LayerMain.getTiledTileAt(i, j, true);
                             let newside = tiled.node.addComponent(BoxCollider2D);
                             newside.group = PHY_GROUP.DEFAULT;
-                            newside.size = new Size(tileSize.width, tileSize.height);
-                            // newside.size = new Size(1, 1);
+                            // newside.size = new Size(tileSize.width, tileSize.height);
+                            newside.size = new Size(1, 1);
                             let item = tiled.node.addComponent(Item);
                             item.setData(i, j);
                             color += white;
